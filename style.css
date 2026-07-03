@@ -41,7 +41,7 @@ ul{
 button{
     padding:12px 25px;
     border:none;
-    background:#0077ff;
+    background:#63d611;
     color:white;
     font-size:16px;
     border-radius:5px;
@@ -49,7 +49,7 @@ button{
 }
 
 button:hover{
-    background:#005ecc;
+    background:#0ad8df;
 }
 
 footer{

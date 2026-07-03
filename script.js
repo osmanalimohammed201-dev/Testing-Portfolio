@@ -1,5 +1,5 @@
 const button = document.getElementById("btn");
 
 button.addEventListener("click", function () {
-    alert("Welcome to my portfolio!");
+    alert("Welcome this is osman's portfolio!");
 });
