@@ -27,14 +27,14 @@ h2{
 }
 
 ul{
-    margin-left:20px;
+    padding-left:20px;
 }
 
 .card{
-    background:rgb(229, 222, 222);
+    background:rgb(229,222,222);
     padding:20px;
     margin:15px 0;
-    border-radius:8px;
+    border-radius:30px;
     box-shadow:0 5px 10px rgba(0,0,0,0.1);
 }
 
