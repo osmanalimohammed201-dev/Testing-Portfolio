@@ -1,5 +1,9 @@
+alert("Welcome! This is Osman's portfolio!");
+
 const button = document.getElementById("btn");
 
-button.addEventListener("click", function () {
-    alert("Welcome! This is Osman's portfolio!");
-});
+if (button) {
+    button.addEventListener("click", function () {
+        alert("Thank you for visiting my portfolio!");
+    });
+}
