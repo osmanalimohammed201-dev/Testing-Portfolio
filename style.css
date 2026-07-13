@@ -4,10 +4,28 @@
     box-sizing:border-box;
 }
 
+/* ---- COLOR VARIABLES ----
+   Change these hex codes to change the whole site's colors! */
+:root {
+  --bg-deep: #14142b;        /* deep indigo background */
+  --bg-panel: #1c1c3a;       /* slightly lighter panel background */
+  --violet: #7c3aed;         /* electric violet accent */
+  --cyan: #22d3ee;           /* cyan accent */
+  --pink: #ec4899;           /* hot pink accent */
+  --amber: #fbbf24;          /* amber accent (used sparingly) */
+  --text-main: #f4f4fb;      /* near-white text */
+  --text-dim: #9c9cc4;       /* muted lavender-grey text */
+  --border-soft: rgba(255,255,255,0.08);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background:#f4f4f4;
-    color:#333;
+    background:#5a3f0a;
+    color:#726841;
 }
 
 header{
