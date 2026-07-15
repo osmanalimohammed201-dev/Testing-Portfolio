@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Osman Ali | Frontend Developer</title>
+
+    <!-- Google Fonts: Sora for headings (modern, geometric, techy) + Inter for body text (clean, readable) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons (GitHub, LinkedIn, Mail, etc.) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============================================= -->
+    <!-- NAVBAR: fixed to top, becomes solid on scroll   -->
+    <!-- ============================================= -->
+    <header class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="#home" class="logo">MO<span class="logo-accent">.</span></a>
+
+            <!-- Hamburger icon for mobile menu -->
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============================================= -->
+    <!-- HERO SECTION                                    -->
+    <!-- ============================================= -->
+    <section id="home" class="hero">
+        <div class="hero-bg-glow"></div>
+
+        <div class="hero-content">
+            <p class="hero-eyebrow">Hi, my name is</p>
+            <h1 class="hero-name">Mohammed Osman Ali</h1>
+            <!-- The role text below is typed out letter by letter using script.js -->
+            <h2 class="hero-role">I build things for <span class="typed-text" id="typedText"></span><span class="cursor">|</span></h2>
+            <p class="hero-desc">
+                First-year MPC student and self-taught frontend developer, currently learning
+                HTML, CSS, JavaScript and Python — building real projects along the way.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+        </div>
+
+        <div class="hero-photo">
+            <div class="photo-ring">
+                <img src="profile-photo.jpg" alt="Mohammed Osman Ali">
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================= -->
+    <!-- ABOUT + EDUCATION                               -->
+    <!-- ============================================= -->
+    <section id="about" class="section">
+        <p class="section-eyebrow">01 &nbsp;—&nbsp; Get To Know Me</p>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-grid">
+            <p class="about-text">
+                I'm currently pursuing my Intermediate (MPC — Maths, Physics, Chemistry) while teaching
+                myself web development on the side. I enjoy turning ideas into working websites and small
+                apps, and I'm steadily building my skills in HTML, CSS, JavaScript and Python. Outside of
+                code, I like swimming and exploring new technologies.
+            </p>
+
+            <!-- Education shown as a simple vertical timeline -->
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h3>Intermediate — MPC</h3>
+                    <p>Shaheen Junior College &nbsp;•&nbsp; In Progress</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h3>SSC (10th Grade)</h3>
+                    <p>Completed with 80%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================= -->
+    <!-- SKILLS                                          -->
+    <!-- ============================================= -->
+    <section id="skills" class="section section-alt">
+        <p class="section-eyebrow">02 &nbsp;—&nbsp; What I Know</p>
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+            <!-- Each skill is a card with an icon; edit the icon class from fontawesome.com to change it -->
+            <div class="skill-card"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+            <div class="skill-card"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+            <div class="skill-card"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+            <div class="skill-card"><i class="fa-brands fa-python"></i><span>Python</span></div>
+            <div class="skill-card"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+            <div class="skill-card"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+            <div class="skill-card"><i class="fa-solid fa-code"></i><span>VS Code</span></div>
+            <div class="skill-card"><i class="fa-solid fa-square-root-variable"></i><span>Maths</span></div>
+        </div>
+    </section>
+
+    <!-- ============================================= -->
+    <!-- PROJECTS: Websites, Games, Python              -->
+    <!-- ============================================= -->
+    <section id="projects" class="section">
+        <p class="section-eyebrow">03 &nbsp;—&nbsp; What I've Built</p>
+        <h2 class="section-title">Projects</h2>
+
+        <!-- Websites -->
+        <h3 class="group-title"><i class="fa-solid fa-globe"></i> Websites</h3>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-icon"><i class="fa-solid fa-window-restore"></i></div>
+                <h4>Portfolio Website</h4>
+                <p>A responsive personal portfolio website built using HTML, CSS, and JavaScript.</p>
+                <a href="https://github.com/osmanalimohammed201-dev/Testing-Portfolio.git" target="_blank" rel="noopener">
+                    View Source <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+            <div class="project-card">
+                <div class="project-icon"><i class="fa-solid fa-headphones"></i></div>
+                <h4>Sonix Gold</h4>
+                <p>A responsive, animated headphones showcase site built using HTML, CSS, and JavaScript.</p>
+                <a href="https://github.com/osmanalimohammed201-dev/sonix-gold.git" target="_blank" rel="noopener">
+                    View Source <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Games -->
+        <h3 class="group-title"><i class="fa-solid fa-gamepad"></i> Games</h3>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-icon"><i class="fa-solid fa-rocket"></i></div>
+                <h4>Galaxy Shooter Suite</h4>
+                <p>A space shooter game with colorful graphics and smooth gameplay, built with HTML, CSS, and JavaScript.</p>
+                <a href="https://github.com/osmanalimohammed201-dev/-galaxy-shooter-suite.git" target="_blank" rel="noopener">
+                    View Source <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Python Projects -->
+        <h3 class="group-title"><i class="fa-brands fa-python"></i> Python Projects</h3>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-icon"><i class="fa-solid fa-calculator"></i></div>
+                <h4>Calculator</h4>
+                <p>A simple calculator application developed using Python.</p>
+                <a href="https://github.com/osmanalimohammed201-dev/calculator.py.git" target="_blank" rel="noopener">
+                    View Source <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+            <div class="project-card">
+                <div class="project-icon"><i class="fa-solid fa-key"></i></div>
+                <h4>Password Generator</h4>
+                <p>A Python application that generates strong and secure random passwords.</p>
+                <a href="https://github.com/osmanalimohammed201-dev/password-generator.py.git" target="_blank" rel="noopener">
+                    View Source <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================= -->
+    <!-- CONTACT                                         -->
+    <!-- ============================================= -->
+    <section id="contact" class="section section-alt">
+        <p class="section-eyebrow">04 &nbsp;—&nbsp; Get In Touch</p>
+        <h2 class="section-title">Contact Me</h2>
+        <p class="contact-desc">Have a project in mind or just want to say hi? My inbox is always open.</p>
+
+        <div class="contact-links">
+            <a href="mailto:osmanalimohammed201@gmail.com" class="contact-card">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+            <a href="https://github.com/osmanalimohammed201-dev" target="_blank" rel="noopener" class="contact-card">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/mohammed-osman-ali" target="_blank" rel="noopener" class="contact-card">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- ============================================= -->
+    <!-- FOOTER                                          -->
+    <!-- ============================================= -->
+    <footer class="footer">
+        <p>&copy; 2026 Mohammed Osman Ali. Built with HTML, CSS &amp; JavaScript.</p>
+    </footer>
+
+    <!-- Back to top button, shows after scrolling down -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
